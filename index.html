@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- FIM GOOGLE FONTES -->
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- FIM BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="style.css">
+
+    <script src="menu.js" defer></script>
+
+    <title>Meu Portfólio</title>
+</head>
+<body>
+    
+    <header>
+        <div class="interface">
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="#contato">
+                    <button>Contato</button>
+                </a>
+            </div><!--btn-contato-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#habilidades">Habilidades</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+
+            </div><!--menu-mobile-->
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div><!--interface-->
+    </header>
+
+    <main>
+        <section class="topo-do-site" >
+            <a name="inicio"></a>
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>ANA CAROLINNE DIAS ALVES SOARES<span>.</span></h1>
+                        <p>Busco oportunidade como jovem aprendiz em uma empresa onde possa desenvolver minhas habilidades, aprender novos conhecimentos e contribuir de forma positiva para o ambiente de trabalho.</p>
+
+                        <div class="btn-contato">
+                            <a href="#contato">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div><!--txt-topo-site-->
+
+                    <div class="img-topo-site">
+                        <img src="images/pessoa.png" alt="">
+                    </div><!--img-topo-site-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+
+        <section class="especiliadades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>HABILIDADES.</span></h2>
+                <a name="habilidades"></a>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-code-square"></i>
+                        <h3>Técnicas</h3>
+<p>Habilidades avançadas em linguagens como C#, JS e React, com foco especial em algoritmos e estruturas de dados; <br> <br>
+    Experiência comprovada na resolução de problemas complexos e na otimização de código para desempenho e eficiência; <br> <br>
+    Familiaridade com práticas modernas de desenvolvimento web, incluindo testes automatizados, integração contínua e desenvolvimento orientado a componentes.</p>                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-people-fill"></i>
+                        <h3>Adicionais</h3>
+                        <p>Conhecimento em atendimento ao cliente;
+<br> <br>
+                            Conhecimento e prática no pacote Office, nível intermediário;
+                           <br> <br>
+                           Boa capacidade de comunicação e trabalho em equipe.</p>
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-filter-square-fill"></i>
+                        <h3>Cursos</h3>
+                        <p>IT Essentials: PC Hardware e Software - CISCO -  70 horas – 2022;
+                            <br> <br>
+                            Girl for IT - JA São Paulo - 8 horas - 2023;
+                            <br> <br>
+                           Planejamento Estratégico - HP LIFE - 1 hora - 2024;
+                           <br> <br>
+                           Design Thinking - HP LIFE - 1 hora - 2024;
+                           <br> <br>
+                           Apresentações Eficientes - HP LIFE - 1 hora - 2024.</p>
+                    </div><!--especialidades-box-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--especiliadades-->
+
+        <section class="portfolio">
+            <div class="interface">
+                <a name="projetos"></a>
+
+                <h2 class="titulo">MEUS <span>PROJETOS.</span></h2>
+               <P  class="projeto">Em breve...</P>
+            </div><!--interface-->
+        </section><!--portfolio-->
+
+        <section class="formulario">
+            <div class="interface">
+                <h2 class="titulo">FALE <span>COMIGO.</span></h2>
+
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Seu nome completo:" required>
+                    <input type="text" name="" id="" placeholder="Seu e-mail:" required>
+                    <input type="text" name="" id="" placeholder="Seu celular:">
+                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+            </div><!--interface-->
+        </section><!--formulario-->
+
+    </main>
+
+    <footer>
+        <div class="interface">
+            <a name = "contato"></a>
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                    </div><!--logo-footer-->
+                    <div class="btn-social">
+                        <a href="https://www.instagram.com/ana_soarez/?next=%2F"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="https://www.linkedin.com/in/ana-lou-5637132a5/"><button><i class="bi bi-linkedin"></i></button></a>
+                    </div><!--btn-social-->
+                </div>
+            </div><!--line-footer-->
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:carolinne.soares225@gmail.com">carolinne.soares225@gmail.com</a></p>
+            </div><!--line-footer-->
+        </div><!--interface-->
+    </footer>
+
+</body>
+</html>
